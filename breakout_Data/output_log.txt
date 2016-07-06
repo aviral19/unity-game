@@ -1,0 +1,44 @@
+Initialize engine version: 4.6.1f1 (d1db7a1b5196)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 740M      (ID=0x1292)
+    Vendor:   NVIDIA
+    VRAM:     1997 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\unity game\breakout_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\unity game\breakout_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\unity game\breakout_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\unity game\breakout_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\unity game\breakout_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\unity game\breakout_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.838 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: D:\unity game\breakout_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\unity game\breakout_Data\Managed\System.dll (this message is harmless)
+ArgumentException: The prefab you want to instantiate is null.
+  at UnityEngine.Object.CheckNullArgument (System.Object arg, System.String message) [0x00006] in C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineObject.cs:104 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, Vector3 position, Quaternion rotation) [0x00000] in C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineObject.cs:83 
+  at gm.Setup () [0x00026] in C:\Users\Avp\Documents\New Unity Project 2\Assets\scripts\gm.cs:34 
+  at gm.Start () [0x00036] in C:\Users\Avp\Documents\New Unity Project 2\Assets\scripts\gm.cs:28 
+ 
+(Filename: C Line: 0)
+
+UnloadTime: 53.723335 ms
+System memory in use before: 11.6 MB.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 11.6 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 358.
+Total: 0.675069 ms (FindLiveObjects: 0.020527 ms CreateObjectMapping: 0.012129 ms MarkObjects: 0.146957 ms  DeleteObjects: 0.007464 ms)
+
+ArgumentException: The prefab you want to instantiate is null.
+  at UnityEngine.Object.CheckNullArgument (System.Object arg, System.String message) [0x00006] in C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineObject.cs:104 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, Vector3 position, Quaternion rotation) [0x00000] in C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineObject.cs:83 
+  at gm.Setup () [0x00026] in C:\Users\Avp\Documents\New Unity Project 2\Assets\scripts\gm.cs:34 
+  at gm.Start () [0x00036] in C:\Users\Avp\Documents\New Unity Project 2\Assets\scripts\gm.cs:28 
+ 
+(Filename: C Line: 0)
+
